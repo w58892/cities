@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CityDescriptionActivity"
+    android:layout_marginStart="10dp"
+
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="Przeszępstwa"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ilość"
+            android:gravity="center"
+            android:layout_weight="1.3"
+            android:textSize="18dp"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Wykrywalność"
+            android:layout_weight="1"
+            android:textSize="18dp"
+            android:gravity="center"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Kryminalne"
+            android:textSize="18dp"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ilość."
+            android:gravity="center"
+            android:layout_weight="1.3"
+            android:textSize="18dp"
+            android:id="@+id/criminal"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Wykrywalność."
+            android:textSize="18dp"
+            android:gravity="center"
+            android:id="@+id/criminalDetectability"
+            android:layout_weight="1"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Gospodarcze"
+            android:textSize="18dp"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ilość."
+            android:gravity="center"
+            android:layout_weight="1.3"
+            android:textSize="18dp"
+            android:id="@+id/economic"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Wykrywalność."
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:id="@+id/economicDetectability"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Drogowe"
+            android:textSize="18dp"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ilość."
+            android:textSize="18dp"
+            android:id="@+id/road"
+            android:gravity="center"
+            android:layout_weight="1.3"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Wykrywalność."
+            android:layout_weight="1"
+            android:textSize="18dp"
+            android:id="@+id/roadDetectability"
+            android:gravity="center"
+
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Pobicia"
+            android:textSize="18dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ilość."
+            android:textSize="18dp"
+            android:id="@+id/beating"
+            android:gravity="center"
+            android:layout_weight="1.3"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Wykrywalność."
+            android:textSize="18dp"
+            android:id="@+id/beatingDetectability"
+            android:layout_weight="1"
+            android:gravity="center"
+
+            />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+
+            android:text="Kradzieże"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ilość."
+            android:textSize="18dp"
+            android:id="@+id/thefts"
+            android:gravity="center"
+            android:layout_weight="1.3"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:id="@+id/theftsDetectability"
+            android:text="Wykrywalność."
+            android:layout_weight="1"
+            android:gravity="center"
+
+            />
+
+
+    </LinearLayout>
+</LinearLayout>
